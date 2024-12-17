@@ -1,0 +1,53 @@
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f0f8ff, #add8e6);
+            color: #333;
+        }
+        header {
+            background-color: #bf5ea2;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        header marquee {
+            font-style: italic;
+        }
+        img.banner {
+            width: 100%;
+            height: auto;
+        }
+        table {
+            margin: 20px auto;
+            border-spacing: 20px;
+            text-align: center;
+        }
+        table img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        table img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        footer a {
+            color: #0077b6;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        footer b {
+            color: #333;
+        }
+    </style>

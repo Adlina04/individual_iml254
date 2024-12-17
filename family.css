@@ -1,0 +1,73 @@
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #fff8f0, #ffe6e6);
+            color: #333;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        table {
+            margin: 20px auto;
+            width: 60%;
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
+        table td {
+            vertical-align: top;
+            background: #fdf4f4;
+            border: 2px solid #d8b6b6;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        table img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            color: #b03060;
+            margin: 30px 0;
+        }
+        ul {
+            text-align: left;
+            list-style-type: disc;
+            margin: 10px 0 0 20px;
+            font-size: 1.1em;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        footer a img {
+            width: 60px;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        footer a img:hover {
+            transform: scale(1.2);
+        }
+        .big-family {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px auto;
+        }
+        .big-family img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
